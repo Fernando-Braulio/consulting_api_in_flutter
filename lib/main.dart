@@ -61,7 +61,14 @@ class _MyAppState extends State<MyApp> {
             height: 80,
             color: Colors.blue,
             child: Text(
-              "Nome: "+_api[index].name
+              "Nome: " +
+                  _api[index].name +
+                  "\nEmail: " +
+                  _api[index].email +
+                  "\nTelefone: " +
+                  _api[index].phone +
+                  "\nWebsite: " +
+                  _api[index].website,
             ),
           ),
         );
